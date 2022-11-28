@@ -24,7 +24,7 @@ const Restaurant = () => {
             <div className='btn-group'>
                 <button className='btn-group__item' onClick={() => filterItem("tshirt")}>T-shirts</button>
                 <button className='btn-group__item' onClick={() => filterItem("badges")}>Badges</button>
-                <button className='btn-group__item' onClick={() => filterItem("graphic designing")}>Graphic Designig</button>
+                <button className='btn-group__item' onClick={() => filterItem("gd")}>Graphic Designig</button>
                 <button className='btn-group__item' onClick={() => filterItem("posters")}>Posters</button>
                 <button className='btn-group__item' onClick={() => setManuData(Menu)}>All</button>
             </div>

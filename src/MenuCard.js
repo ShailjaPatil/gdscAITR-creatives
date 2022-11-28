@@ -22,7 +22,7 @@ const MenuCard = ({menuData}) => {
                 <span className='card-author subtle' >{curElem.name}</span>
                 <h2 className='card-title'>{curElem.name}</h2>
                 <span className='card-description subtle'>{curElem.description}</span>
-                <div className='card-read'>Creator {curElem.author}</div>
+                <div className='card-read'>Creator: {curElem.author}</div>
             </div>
     </div>
 </div>
